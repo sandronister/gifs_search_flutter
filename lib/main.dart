@@ -5,6 +5,7 @@ import 'package:search_gif_flutter/ui/home.dart';
 void main(){
   runApp(MaterialApp(
     home: HomePage(),
+    theme: ThemeData(hintColor: Colors.white),
   ))
   ;
 }
